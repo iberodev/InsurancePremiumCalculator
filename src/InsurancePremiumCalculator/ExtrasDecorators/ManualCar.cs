@@ -4,7 +4,7 @@ namespace InsurancePremiumCalculator.ExtrasDecorators
 {
     public class ManualCar : PremiumDecorator
     {
-        Policy _policy;
+        private readonly Policy _policy;
 
         public ManualCar(Policy policy)
         {

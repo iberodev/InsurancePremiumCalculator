@@ -2,7 +2,7 @@
 {
     public class BigEngine : PremiumDecorator
     {
-        Policy _policy;
+        private readonly Policy _policy;
 
         public BigEngine(Policy policy)
         {

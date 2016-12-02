@@ -2,7 +2,7 @@
 {
     public class YoungDriver : PremiumDecorator
     {
-        Policy _policy;
+        private readonly Policy _policy;
 
         public YoungDriver(Policy policy)
         {
